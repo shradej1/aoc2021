@@ -118,8 +118,6 @@
 //! is the life support rating of the submarine? (Be sure to represent your
 //! answer in decimal, not binary.)
 
-use std::str::FromStr;
-
 /// Parses the puzzle input
 fn parse_input(input: &str) -> Vec<&str> {
     input.lines().filter(|l| !l.trim().is_empty()).collect()
