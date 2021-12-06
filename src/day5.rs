@@ -23,8 +23,8 @@
 //! the coordinates of the other end. These line segments include the points at
 //! both ends. In other words:
 //!
-//!     An entry like 1,1 -> 1,3 covers points 1,1, 1,2, and 1,3.
-//!     An entry like 9,7 -> 7,7 covers points 9,7, 8,7, and 7,7.
+//!    An entry like 1,1 -> 1,3 covers points 1,1, 1,2, and 1,3.
+//!    An entry like 9,7 -> 7,7 covers points 9,7, 8,7, and 7,7.
 //!
 //! For now, only consider horizontal and vertical lines: lines where either x1
 //! = x2 or y1 = y2.
@@ -65,8 +65,8 @@
 //! your list will only ever be horizontal, vertical, or a diagonal line at
 //! exactly 45 degrees. In other words:
 //!
-//!     An entry like 1,1 -> 3,3 covers points 1,1, 2,2, and 3,3.
-//!     An entry like 9,7 -> 7,9 covers points 9,7, 8,8, and 7,9.
+//!    An entry like 1,1 -> 3,3 covers points 1,1, 2,2, and 3,3.
+//!    An entry like 9,7 -> 7,9 covers points 9,7, 8,8, and 7,9.
 //!
 //! Considering all lines from the above example would now produce the following
 //! diagram:

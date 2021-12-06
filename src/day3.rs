@@ -63,7 +63,7 @@
 //! start with the full list of binary numbers from your diagnostic report and
 //! consider just the first bit of those numbers. Then:
 //!
-//!     Keep only numbers selected by the bit criteria for the type of rating
+//! Keep only numbers selected by the bit criteria for the type of rating
 //! value for which you are searching. Discard numbers which do not match the
 //! bit criteria.     If you only have one number left, stop; this is the rating
 //! value for which you are searching.     Otherwise, repeat the process,
@@ -71,7 +71,7 @@
 //!
 //! The bit criteria depends on which type of rating value you want to find:
 //!
-//!     To find oxygen generator rating, determine the most common value (0 or
+//! To find oxygen generator rating, determine the most common value (0 or
 //! 1) in the current bit position, and keep only numbers with that bit in that
 //! position. If 0 and 1 are equally common, keep values with a 1 in the
 //! position being considered.     To find CO2 scrubber rating, determine the
@@ -82,7 +82,7 @@
 //! For example, to determine the oxygen generator rating value using the same
 //! example diagnostic report from above:
 //!
-//!     Start with all 12 numbers and consider only the first bit of each
+//! Start with all 12 numbers and consider only the first bit of each
 //! number. There are more 1 bits (7) than 0 bits (5), so keep only the 7
 //! numbers with a 1 in the first position: 11110, 10110, 10111, 10101, 11100,
 //! 10000, and 11001.     Then, consider the second bit of the 7 remaining
@@ -99,7 +99,7 @@
 //! Then, to determine the CO2 scrubber rating value from the same example
 //! above:
 //!
-//!     Start again with all 12 numbers and consider only the first bit of each
+//! Start again with all 12 numbers and consider only the first bit of each
 //! number. There are fewer 0 bits (5) than 1 bits (7), so keep only the 5
 //! numbers with a 0 in the first position: 00100, 01111, 00111, 00010, and
 //! 01010.     Then, consider the second bit of the 5 remaining numbers: there

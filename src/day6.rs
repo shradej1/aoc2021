@@ -23,10 +23,10 @@
 //!
 //! So, suppose you have a lanternfish with an internal timer value of 3:
 //!
-//!     After one day, its internal timer would become 2.
-//!     After another day, its internal timer would become 1.
-//!     After another day, its internal timer would become 0.
-//!     After another day, its internal timer would reset to 6, and it would
+//!    After one day, its internal timer would become 2.
+//!    After another day, its internal timer would become 1.
+//!    After another day, its internal timer would become 0.
+//!    After another day, its internal timer would reset to 6, and it would
 //! create a new lanternfish with an internal timer of 8.     After another day,
 //! the first lanternfish would have an internal timer of 5, and the second
 //! lanternfish would have an internal timer of 7.
